@@ -10,4 +10,6 @@ Feel free to explore the **wireframe**, **mockup** and **prototype** of my lates
 
 `see ya later alligator =')`
 </br>
+</br>
+</br>
 <sub>Devotedly, Sondos AbuYounis &copy; 2025. All rights reserved </sup>
