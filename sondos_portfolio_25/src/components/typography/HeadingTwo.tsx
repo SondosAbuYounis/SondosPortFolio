@@ -1,11 +1,11 @@
 import React from "react";
-import { TypographyProps } from "./Types";
+import { TypographyProps } from "./Utils";
 
 const HeadingTwo: React.FC<TypographyProps> = ({ children }) => {
   return (
-    <h1 className="font-mainFontFamily font-boldFont text-6xl uppercase leading-none">
+    <h2 className="font-mainFontFamily font-boldFont text-6xl uppercase leading-none">
       {children}
-    </h1>
+    </h2>
   );
 };
 

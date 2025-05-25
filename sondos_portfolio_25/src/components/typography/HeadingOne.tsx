@@ -1,5 +1,5 @@
 import React from "react";
-import { TypographyProps } from "./Types";
+import { TypographyProps } from "./Utils";
 
 const HeadingOne: React.FC<TypographyProps> = ({ children }) => {
   return (
