@@ -2,6 +2,9 @@
 
 :root {
   --mainFontFamily: "Inter", sans-serif;
+  --boldFont: 900;
+  --semiBoldFont: 600;
+  --regularFont: 400;
   /* Light mode color palette */
   --RedAccent: #e83434;
   --YellowAccent: #fbe62e;
@@ -20,6 +23,9 @@
 
 @theme inline {
   --font-mainFontFamily: var(--mainFontFamily);
+  --font-weight-boldFont: var(--boldFont);
+  --font-weight-semiBoldFont: var(--semiBoldFont);
+  --font-weight-regularFont: var(--regularFont);
   --color-RedAccent: var(--RedAccent);
   --color-YellowAccent: var(--YellowAccent);
   --color-LightBG: var(--LightBG);
