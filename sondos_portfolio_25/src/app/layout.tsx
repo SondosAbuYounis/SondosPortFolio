@@ -11,6 +11,20 @@ export const metadata: Metadata = {
     },
   ],
   keywords: "portfolio",
+  icons: {
+    icon: [
+      {
+        media: "(prefers-color-scheme: light)",
+        url: "/favicon-light.png",
+        href: "/favicon-light.png",
+      },
+      {
+        media: "(prefers-color-scheme: dark)",
+        url: "/favicon-dark.png",
+        href: "/favicon-dark.png",
+      },
+    ],
+  },
 };
 
 export default function RootLayout({
@@ -20,6 +34,18 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <link
+          rel="shortcut icon"
+          href="/favicon-light.ico"
+          media="(prefers-color-scheme: light)"
+        />
+        <link
+          rel="shortcut icon"
+          href="/favicon-dark.ico"
+          media="(prefers-color-scheme: dark)"
+        />
+      </head>
       <body className={`font-mainFontFamily antialiased`}>{children}</body>
     </html>
   );
