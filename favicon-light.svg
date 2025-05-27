@@ -1,0 +1,20 @@
+<style>
+:root {
+  --stroke-color: #222; /* default (light) */
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --stroke-color: #f0f0f0;
+  }
+}
+
+.themed-stroke {
+  stroke: var(--stroke-color);
+}
+</style>
+
+<svg width="190" height="224" viewBox="0 0 190 224" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path class="themed-stroke" d="M179 103V11H148.5M148.5 11V103M148.5 11H119M119 11V103M119 11H13.5V103" stroke-width="22"/>
+  <path class="themed-stroke" d="M179 121V213H148M148 213V121M148 213H118M118 213V121M118 213H81.5M81.5 213V149.5M81.5 213H47.5M47.5 213V132H11.5V196M47.5 213H1M81.5 142.5V121" stroke-width="22"/>
+</svg>
