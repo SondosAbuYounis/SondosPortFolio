@@ -8,6 +8,7 @@
   /* Light mode color palette */
   --RedAccent: #e83434;
   --YellowAccent: #fbe62e;
+  --GreenAccent: #7aa46f;
   --LightBG: #f4f4f4;
   --Dark: #222222;
   --DarkIsh: #3e3e3e;
@@ -28,6 +29,7 @@
   --font-weight-regularFont: var(--regularFont);
   --color-RedAccent: var(--RedAccent);
   --color-YellowAccent: var(--YellowAccent);
+  --color-GreenAccent: var(--GreenAccent);
   --color-LightBG: var(--LightBG);
   --color-Dark: var(--Dark);
   --color-DarkIsh: var(--DarkIsh);
