@@ -1,7 +1,7 @@
 import React from "react";
 import { TypographyProps } from "./Utils";
 
-const HeadingFour: React.FC<TypographyProps> = ({ children }) => {
+const HeadingFive: React.FC<TypographyProps> = ({ children }) => {
   return (
     <h5 className="font-mainFontFamily font-boldFont text-2xl uppercase leading-none">
       {children}
@@ -9,4 +9,4 @@ const HeadingFour: React.FC<TypographyProps> = ({ children }) => {
   );
 };
 
-export default HeadingFour;
+export default HeadingFive;
